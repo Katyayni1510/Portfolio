@@ -1,0 +1,265 @@
+ /* #FFAD60; */
+
+/* ............................................................................About screen...................................................... */
+.row{
+  margin-left:0px;
+  margin-right:0px;
+}
+.left{
+  text-align: center;
+
+}
+/* right image  */
+.box img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+/* left continer */
+.crop_image{
+  width: 180px;
+ height: 180px;
+ margin: 80px 0px 20px 0px;
+}
+.line1{
+  font-size:3rem;
+  font-weight: bold;
+  font-family: "EB Garamond";
+  color: #0B2F45;
+  margin-bottom:  6px;
+}
+.line2{
+  font-family: "EB Garamond";
+  font-size:1rem;
+  color: #a0a0a0;
+  font-weight: 500;
+  margin-bottom:  10px;
+}
+.line3{
+  font-family: "EB Garamond";
+  color: #636E74;
+  width: 100%;
+  line-height: 1.2rem;
+  padding: 0px 10% 0px 10%;
+}
+.myportfolio_button{
+  width: 30%;
+  padding: 15px;
+  color: #0B2F45;
+  background-color: #FFAD60;
+  border: none;
+  text-decoration: none;
+
+  background-image: linear-gradient(#FFAD60, #FFAD60 50%, #FF9735 50%, #FF9735);
+  background-size: 100% 200%;
+  transition: background-position .3s;
+}
+.myportfolio_button:hover {
+ background-position:bottom;
+ color: #0B2F45;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .box img {
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+  }
+  .crop_image{
+    width: 150px;
+   height: 150px;
+   margin: 50px 0px 20px 0px;
+  }
+  .myportfolio_button{
+      width: 30%;}
+  body{
+        margin-bottom: 65px;
+  }
+
+}
+.button{
+  text-align: center;
+  margin: 36px 0px 150px 0px;
+}
+.social-icons{
+  text-align: center;
+  display: inline;
+}
+.fa {
+  padding: 10px;
+  color: #0B2F45;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #F0F0F0;
+  margin: 0px 8px 18px 8px;
+
+  background-image: linear-gradient(#F0F0F0, #F0F0F0 50%, #E0E0E0 50%, #E0E0E0);
+  background-size: 100% 200%;
+  transition: background-position .3s;
+}
+.fa:hover {
+ background-position:bottom;
+ color: #0B2F45;
+}
+
+/* ............................................................project page............................................................................................. */
+nav{
+  font-family: EB Garamond;
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 10px;
+}
+.navbar-toggler{
+  border: none;
+  text-decoration: none;
+}
+
+
+.navbar{
+  padding: 40px 20px 10px 20px;
+}
+.header{
+  height: 60vh;
+  text-align: center;
+  padding: 150px 0px;
+  font-family: "EB Garamond";
+}
+.header_line1{
+  font-weight: 600;
+  font-size: 4rem;
+}
+.header_line2{
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+@media only screen and (max-width: 768px){
+  .header_line1{
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  .header_line2{
+    font-weight: 100;
+    font-size: 1.2rem;
+
+  }
+}
+/* .......................hover on project.........................................................  */
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.content {
+  position: relative;
+  margin-bottom: 36px;
+  background-color: none;
+  border-radius: 0px;
+
+  /* margin: auto; */
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px){
+  .content{
+
+    background-color: rgba(255, 210, 169, 0.4);
+    border-radius: 10px;
+  }
+}
+
+
+.content .content-overlay {
+  background: #FFAD60;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay{
+  opacity: 1;
+}
+/* .content-image{
+  width: 100%;
+} */
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h3{
+  color: #fff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-bottom: 0.5em;
+
+}
+.content-details p{
+  color: #fff;
+  font-size: 0.9em;
+}
+.fadeIn-bottom{
+  top: 80%;
+}
+
+/* ..............................................................................resume page............................................................................. */
+
+.resume_body{
+  text-align: center;
+}
+.resume{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.detail_on_mobile{
+  visibility: hidden;
+  padding-top: 12px;
+}
+.content-title-mobile{
+  visibility: hidden;
+  font-size: 1rem;
+  font-family: EB Garamond;
+  color: rgba(20, 61, 89, 0.8);
+
+}
+@media only screen and (max-width: 768px){
+  nav .resumenav{
+    visibility: hidden;
+  }
+  .resume{
+    margin-top: 0px;
+
+  }
+  .detail_on_mobile{
+    visibility: visible;
+  }
+  .content-title-mobile{
+    visibility: visible;}
+}
