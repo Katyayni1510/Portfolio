@@ -82,15 +82,9 @@
   text-align: center;
   margin: 36px 0px 150px 0px;
 }
-.social-icons {
-  position: fixed;
-  bottom: 20px;     
-  left: 25%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 15px;
-  font-size: 24px;
-  z-index: 1000;  
+.social-icons{
+  text-align: center;
+  display: inline;
 }
 .fa {
   padding: 10px;
@@ -269,6 +263,7 @@ nav{
   .content-title-mobile{
     visibility: visible;}
 }
+
 
 
 
