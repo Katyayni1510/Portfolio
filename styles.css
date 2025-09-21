@@ -85,7 +85,7 @@
 .social-icons {
   position: fixed;
   bottom: 20px;     
-  left: 50%;
+  left: 33%;
   transform: translateX(-50%);
   display: flex;
   gap: 15px;
@@ -269,6 +269,7 @@ nav{
   .content-title-mobile{
     visibility: visible;}
 }
+
 
 
 
